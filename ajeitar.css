@@ -1,0 +1,82 @@
+/* RESET */
+
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CORES E TIPOGRAFIA */
+
+body{ 
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f7f7; 
+    color: #141313;
+}
+
+/* MENU */
+
+nav{
+    background-color: #141313;
+    padding:15px;
+    text-align: center;
+}
+
+nav a{
+    color: #f8f7f7;
+    text-decoration:none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #3885eb;
+}
+
+/* BANNER */
+
+#banner{
+    text-align: center;
+    color: #f8f7f7;
+    padding: 60px 20px;
+    background: #6aa3ec;
+}
+
+/* BOTOES */
+
+button{
+    background-color: #3885eb;
+    color: #f8f7f7;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* LAYOUT */
+
+section{
+    max-width: 900px;
+    padding: 40px auto;
+    text-align: center;
+}
+
+/* CLASSE */
+
+.card{
+    background-color: #f8f7f7;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* FORMULARIO */ 
+
+form{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 15px;
+}
